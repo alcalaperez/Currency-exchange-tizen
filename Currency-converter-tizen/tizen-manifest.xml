@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="5.0" package="org.example.chfexchange" version="1.0.0">
+    <profile name="wearable"/>
+    <widget-application appid="org.example.chfexchange" exec="chfexchange" main="true" update-period="0">
+        <label>chfexchange</label>
+        <icon>icon.png</icon>
+        <support-size preview="preview.png">2x2</support-size>
+    </widget-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/network.get</privilege>
+        <privilege>http://tizen.org/privilege/internet</privilege>
+    </privileges>
+</manifest>
